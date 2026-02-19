@@ -1,0 +1,24 @@
+# ForexBot dependencies
+# Install with: pip install -r requirements.txt
+
+# Telegram bot framework
+python-telegram-bot==21.6
+
+# HTTP client
+requests==2.31.0
+
+# Environment variable loading
+python-dotenv==1.0.0
+
+# API key encryption
+cryptography==42.0.5
+
+# Async support (already in stdlib for Python 3.10+, listed for clarity)
+# asyncio is built-in
+
+# Optional: For running as a service
+# supervisor or systemd (OS-level, not pip)
+
+# Development / testing only
+pytest==8.0.0
+pytest-asyncio==0.23.5
